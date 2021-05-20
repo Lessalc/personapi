@@ -1,4 +1,4 @@
-package com.github.lessalc.personapi.dto;
+package com.github.lessalc.personapi.dto.request;
 
 import com.github.lessalc.personapi.enums.PhoneType;
 import lombok.AllArgsConstructor;
