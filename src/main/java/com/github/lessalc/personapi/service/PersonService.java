@@ -40,4 +40,9 @@ public class PersonService {
                 map(personMapper::toDTO)
                 .collect(Collectors.toList());
     }
+
+    public PersonDTO findById(Long id) {
+        Person onePerson = personRepository.getById(id);
+        return personMapper.toDTO(onePerson);
+    }
 }
