@@ -3,13 +3,11 @@ package com.github.lessalc.personapi;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 @SpringBootApplication
-public class PersonapiApplication{
+public class PersonApiApplication {
 
 	public static void main(String[] args) {
-
-		SpringApplication.run(PersonapiApplication.class, args);
+		SpringApplication.run(PersonApiApplication.class, args);
 	}
 
 }

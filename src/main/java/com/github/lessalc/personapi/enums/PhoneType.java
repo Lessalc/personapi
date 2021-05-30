@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
-@AllArgsConstructor  // PESQUISAR PARA ENTENDER
+@AllArgsConstructor
 public enum PhoneType {
 
     HOME("Home"),

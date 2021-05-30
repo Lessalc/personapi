@@ -12,7 +12,6 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.util.List;
 
-
 @Data
 @Builder
 @AllArgsConstructor
@@ -22,7 +21,6 @@ public class PersonDTO {
     private Long id;
 
     @NotEmpty
-
     @Size(min = 2, max = 100)
     private String firstName;
 
@@ -40,4 +38,6 @@ public class PersonDTO {
     @Valid
     @NotEmpty
     private List<PhoneDTO> phones;
+
+
 }

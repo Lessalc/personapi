@@ -1,6 +1,5 @@
 package com.github.lessalc.personapi.entity;
 
-
 import com.github.lessalc.personapi.enums.PhoneType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
